@@ -20,8 +20,8 @@
 /* top header styling    */
 /* ===================== */
 
-.headerContainer{
-	border: solid 5px purple;
+.headerContainer{/* 
+	border: solid 5px purple */;
 	position: relative;
 }
 
@@ -37,31 +37,32 @@
 	/* position: relative; */
 	top: 85%;
 	left: 20%;
-	border: 5px solid white;
+	/* border: 5px solid white; */
 	border-radius: 65%;
 	
 }
 
 
 #container {
-	border: solid yellow 5px;
+	/* border: solid yellow 5px; */
 	width: 65%; 
 	margin: 0 auto;
 	padding: 1%;
 }
 
-
+/*  */
 /* ==================== */
 /* left column styling */
 /* ==================== */
 
 .leftCol {
-	border: solid 2px green;
+/* 	border: solid 2px green; */
 	width: 28%;
 	display: inline-block;
 	padding: 1%;
 	height: 500px;
 	vertical-align: top;
+	margin-top: 3%;
 }
 
 /* ==================== */
@@ -69,30 +70,37 @@
 /* ==================== */
 
 .mainCol {
-	border: solid 2px blue;
+	/* border: solid 2px blue; */
 	width: 72%;
 	display: inline-block;
 	padding: 1%;
+	margin-top: 3%;
+	position: relative;
 }
-
+/*  */
 .classroom {
 	max-width: 100%;
-	border: solid 2px tomato;
+	/* border: solid 2px tomato; */
 }
 
 .classroomPic {
 	max-width: 100%;
-	margin: 7%;
+	/* margin: 3%; */
+	padding: 3%;
 }
 
-
+/*  */
 /* ==================== */
 /* side box styling*/
 /* ==================== */
 
 .subscribeBox {
 	border: solid 1px black;
-	max-width: 38%;
+	max-width: 25%;
+	position: absolute;
+	top: 125%;
+	right: 1%;
+	
 }
 
 
@@ -102,36 +110,60 @@
 
 }
 
-.tinyLogo {
-	max-width: 10%;
-	display: inline-block;
-	vertical-align: top;
+.followContainer{
+	display: flex;
 }
+
+.imgContainer{
+/* 	display: inline-block; */
+	flex: 1 ;
+}
+
+.buttonContainer{
+	/* display: inline-block */
+	flex: 1;
+}
+
 
 .subBoxFollow {
-	border: solid 2px green;
-	display: inline-block;
-	float: right;
-	padding: 1%;
-	vertical-align: top;
+/* 	border: solid 2px green; */
+	/* display: block; */
+	max-width:100%;
+	
+	padding-top: 1%;
+	padding-bottom: 1%;
+	flex: 4;
+	/* display: inline-block; */
 
+	/* vertical-align: top;
+ */
 }
 
 
+.tinyLogo {
+	max-width: 50px;
+	/* display:inline-block;
+	vertical-align: top */
+}
 
 .tiy1{
-	display: inline-block;
+	display: block;
+	padding-bottom: 2%;
 
 
 }
 
 .tiy2{
-	display: inline-block;
-
+	display: block;
+`
 
 }
 
 .followButton{
 	background: #3498db;
 	vertical-align: top;
+	display: inline-block;
+	float: right;
 }
+
+
